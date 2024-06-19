@@ -8,9 +8,9 @@ relative_permalinks: true
 
 # Setup
 title:            Alex Rios
-tagline:          'https://www.linkedin.com/in/alexander-angulo-rios-6a529a225/'
-description:      ''
-url:              https://alexarios.github.io
+tagline:          'B.S. Electrical Engineering and Computer Science @ UC Berkeley. Virtual Reality & Unity3d Development.'
+description:      '<a href="https://www.linkedin.com/in/alexander-angulo-rios-6a529a225/" target="_blank">LinkedIn</a>'
+url:              http://alexarios.github.io
 baseurl:          /
 
 author:
