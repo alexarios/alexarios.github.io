@@ -4,12 +4,12 @@ highlighter:      rogue
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+relative_permalinks: false
 
 # Setup
 title:            Alex Rios
-tagline:          'B.S. Electrical Engineering and Computer Science @ UC Berkeley. Virtual Reality & Unity3d Development.'
-description:      '<a href="https://www.linkedin.com/in/alexander-angulo-rios-6a529a225/" target="_blank">LinkedIn</a>'
+tagline:          Portfolio
+description:      'B.S. Electrical Engineering and Computer Science. Virtual Reality & Unity3d Developer. <a href="https://www.linkedin.com/in/alexander-angulo-rios-6a529a225/" target="_blank">LinkedIn</a>'
 url:              http://alexarios.github.io
 baseurl:          /
 
@@ -17,10 +17,14 @@ author:
   name:           'Alex Rios'
   url:            https://alexarios.github.io
 
-paginate:         5
+paginate:         100
+paginate_path:    "blog/index.html" 
 
 # Custom vars
 version:          2.1.0
 
 github:
   repo:           https://github.com/alexarios/alexarios.github.io
+
+# Gems
+plugins: [jekyll-paginate, jekyll-feed, jekyll-sass-converter, jekyll-seo-tag, jekyll-sitemap, jekyll-watch]
