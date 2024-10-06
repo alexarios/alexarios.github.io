@@ -1,30 +1,20 @@
-# Dependencies
-markdown:         kramdown
-highlighter:      rogue
+# Site settings
+title: Portfolio
+description: Alex Rios, AR/VR Designer and Software Engineer
+# baseurl: /
+url: https://alexarios.github.io
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: false
+# User settings
+username: Alex Rios
+user_description: I'm a recent graduate from UC Berkeley, where I received my Bachelors degree for Electrical Engineering and Computer Science. I enjoy video games, music, & any and everything Augmented/Virtual Reality related.
+user_title: AR/VR Designer and Software Engineer
+email: anguloriosalexander@gmail.com
+# twitter_username: lorem_ipsum
+github_username:  alexarios
+# gplus_username:  lorem_ipsum
 
-# Setup
-title:            Alex Rios
-tagline:          Portfolio
-description:      'B.S. Electrical Engineering and Computer Science. Virtual Reality & Unity3d Developer. <a href="https://www.linkedin.com/in/alexander-angulo-rios-6a529a225/" target="_blank">LinkedIn</a>'
-url:              http://alexarios.github.io
-baseurl:          /
+# Google-analytics
+google-analytics:
+  id: ""
 
-author:
-  name:           'Alex Rios'
-  url:            https://alexarios.github.io
-
-paginate:         100
-paginate_path:    "blog/index.html" 
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/alexarios/alexarios.github.io
-
-# Gems
-plugins: [jekyll-paginate, jekyll-feed, jekyll-sass-converter, jekyll-seo-tag, jekyll-sitemap, jekyll-watch]
+exclude: ['package.json', 'src' , 'node_modules']
